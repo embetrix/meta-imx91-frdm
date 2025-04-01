@@ -4,7 +4,7 @@ pipeline {
     parameters {
         gitParameter branchFilter: 'origin/(.*)', defaultValue: 'scarthgap', selectedValue: 'DEFAULT', name: 'BRANCH', type: 'PT_BRANCH', description: 'branch to build'
         choice choices: ['imx91frdm'], description: 'select machine', name: 'MACHINE'
-        choice choices: ['core-image-full-cmdline', 'core-image-minimal'], description: 'select image', name: 'IMAGE'
+        choice choices: ['imx91-frdm-demo-image', 'core-image-full-cmdline', 'core-image-minimal'], description: 'select image', name: 'IMAGE'
         choice choices: ['no', 'yes'], description: 'clean workspace', name: 'CLEAN'
         choice choices: ['no', 'yes'], description: 'build sdk', name: 'SDK'
     }

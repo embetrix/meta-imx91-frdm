@@ -3,7 +3,7 @@ header:
 machine: "imx91frdm"
 distro: poky
 target:
-  - core-image-full-cmdline
+  - imx91-frdm-demo-image
 repos:
   # It's current revision will be used to perform the build.
   meta-imx91-frdm:
