@@ -1,3 +1,5 @@
+PACKAGES += "${PN}-all-sdio"
+
 RDEPENDS:${PN}-all-sdio = " \
     ${PN}-nxp8801-sdio \
     ${PN}-nxp8987-sdio \
